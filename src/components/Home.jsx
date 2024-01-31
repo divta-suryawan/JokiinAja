@@ -10,20 +10,20 @@ const Home = () => {
           </div>
           {/* banner content */}
           <div className="md:w-3/5">
-            <h2 className="md:text-6xl text-4xl font-bold text-[#44b678] mb-6 leading-relaxed">
+            <h2 className="md:text-4xl text-4xl font-bold text-[#44b678] mb-6 leading-relaxed">
               Solusi Tugas Terbaik untuk Anda
               <span className="md:text-5xl text-4xl font-bold text-[#44b678]">
                 .
               </span>
             </h2>
-            <p className="mb-8 text-slate-700 text-justify sm:text-sm md:text-xl">
+            <p className="mb-8 text-slate-700 text-justify sm:text-sm md:text-lg lg:text-xl">
               Selamat datang di JokiinAja, platform solusi tugas untuk
               mahasiswa. Dapatkan tugas Anda selesai dengan mudah dan efisien
               bersama tim joki profesional kami. Kualitas terjamin, tepat waktu.
               Bergabunglah sekarang!
             </p>
             <div>
-              <button className="py-3 px-8 font-semibold bg-[#44b678] text-white rounded hover:bg-[#3c805b] transition-all duration-300">
+              <button className="py-3 px-8 font-semibold bg-[#44b678] text-white rounded hover:bg-[#3c805b] transition-all duration-300 md:text-[15px]">
                 Temukan Lebih Banyak
               </button>
             </div>

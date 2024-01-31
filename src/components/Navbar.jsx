@@ -30,7 +30,7 @@ const Navbar = () => {
               <span className="text-[#44b678]">JokiinAja</span>
             </a>
             {/* navitems */}
-            <ul className="md:flex space-x-12 hidden">
+            <ul className="md:flex space-x-12 hidden text-sm">
               {navItems.map(({ link, path }) => (
                 <a
                   key={link}
@@ -58,7 +58,7 @@ const Navbar = () => {
             </button>
           </div>
           {/* menu btn only display mobile */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button
               onClick={toogleMenu}
               className="text-white focus:outline-none focus:text-gray-300"
